@@ -1,0 +1,5 @@
+# GraphQL Fragment that holds basic information on a User
+fragment RegularUser on User {
+  id
+  username
+}

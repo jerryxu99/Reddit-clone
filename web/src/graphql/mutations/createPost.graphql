@@ -1,0 +1,12 @@
+# PostInput type is found in server/src/resolvers/post.ts
+mutation CreatePost($input: PostInput!) {
+  createPost(input: $input) {
+    id
+    createdAt
+    updatedAt
+    title
+    text
+    points
+    creatorId
+  }
+}
