@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p $PORT",
     "gen": "graphql-codegen --config codegen.yml"
   },
   "dependencies": {
@@ -18,7 +18,7 @@
     "graphql": "^15.5.1",
     "graphql-tag": "^2.12.5",
     "isomorphic-unfetch": "^3.1.0",
-    "next": "latest",
+    "next": "^11.0.1",
     "next-urql": "^3.1.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",

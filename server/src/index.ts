@@ -58,9 +58,9 @@ const main = async () => {
       cookie: {
         maxAge: 1000 * 60 * 60 * 24, // 1 day
         httpOnly: true,
-        sameSite: 'none',
+        sameSite: 'lax',
         secure: __prod__, // cookie only works in https
-        domain: __prod__ ? '.reddit-clone-blond.vercel.app' : undefined,
+        domain: __prod__ ? '.herokuapp.com' : undefined,
       },
       saveUninitialized: false,
       secret: process.env.SESSION_SECRET,

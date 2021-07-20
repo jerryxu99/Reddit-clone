@@ -34,7 +34,7 @@ const errorExchange: Exchange =
   };
 
 // cursorPagination is used in the cacheExchange to go to the cache and fetch all the previously fetched posts and returns them so that
-//    if we were to fetch posts #30-50, we would also still get the previously fetched posts #0-29
+//    if we were to fetch posts #30-50, we would also still get the previously fetched posts #0-29.
 const cursorPagination = (): Resolver => {
   return (_parent, fieldArgs, cache, info) => {
     // entityKey: Query, fieldName: posts
