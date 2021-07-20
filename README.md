@@ -1,6 +1,6 @@
 # Reddit-clone
 This is my Reddit-esque web app built over 3 weeks in July 2021. The website functionality is relatively simple, allowing users to login, CRUD posts, 
-vote on posts, and featuring smaller functionalities such as advanced caching, batched sql queries, pagination, and sorting.
+vote on posts, and featuring smaller functionalities such as advanced caching, server side rendering, batched sql queries, pagination, and sorting.
 
 The app is deployed at https://jxu-reddit-clone.herokuapp.com/
 
@@ -39,6 +39,7 @@ sea of unfamiliarity by carefully solving each issue through consultations with 
 - create posts with description and timestamp
 - redirects users if they are not authenticated for certain requests
 - only allows users to update/delete their own post and dynamically updates ui accordingly.
+- server side rendering for landing page.
 
 ## Known issues
 1. The authentication cookie disappears after refresh. This is because the backend and frontend have different domains so the cross-domain cookies will not persist. 
