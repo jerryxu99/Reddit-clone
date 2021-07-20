@@ -40,6 +40,6 @@ sea of unfamiliarity by carefully solving each issue through consultations with 
 - redirects users if they are not authenticated for certain requests
 
 ## Known issues
-- authentication cookie disappears after refresh. This is because the backend and frontend have different domains so the cross-domain cookies will not persist. 
+1. The authentication cookie disappears after refresh. This is because the backend and frontend have different domains so the cross-domain cookies will not persist. 
 This can be fixed if I purchase a domain and set up the backend as api.domain.com and the frontend as domain.com, which would allow cookies to persist even after 
 a refresh. However, because this app was built for the sake of development, I will leave this issue hanging.
