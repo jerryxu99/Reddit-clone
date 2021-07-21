@@ -37,7 +37,9 @@ const Post = ({}) => {
     <Layout>
       <Heading mb={4}>{data.post.title}</Heading>
 
-      <Box mb={4}>{data.post.text}</Box>
+      <Box whiteSpace={'pre-wrap'} mb={4}>
+        {data.post.text}
+      </Box>
       <EditDeletePostButtons
         id={data.post.id}
         creatorId={data.post.creator.id}
