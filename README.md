@@ -1,19 +1,14 @@
 # Reddit-clone
-This is my Reddit-esque web app built over 3 weeks in July 2021. The website functionality is relatively simple, allowing users to login, CRUD posts, 
-vote on posts, and featuring smaller functionalities such as advanced caching, server side rendering, batched sql queries, pagination, and sorting.
+This is my Reddit-esque web app built over 3 weeks in July 2021. The website functionality allows users to login, CRUD posts, 
+vote on posts, and features smaller functionalities such as advanced caching, server side rendering, batched sql queries, pagination, and sorting.
 
 The app is deployed at https://jxu-reddit-clone.herokuapp.com/
 
 ## Motivation
-The purpose of this project was to try out new technologies. A major motivation behind this project was my interest to learn Typescript - I'm familiar with 
-types from my experience in Java yet I love the stream-lined development of using javascript in the frontend and the backend. Hence I was excited to combine these 
-previous experiences to learn Typescript by jumping right into a project. 
-
-On the topic of learning new technologies, I figured I might as well try a completely new tech stack, steering away from my usual MERN. I had my first experience 
+The purpose of this project was to learn. A major motivation behind this project was familiarizing myself with Typescript.
+On the topic of learning new technologies, I figured I might as well try a completely new tech stack, steering away from MERN. I had my first experience 
 with SQL through Postgres, tried out browser cookies using Redis, implemented the front end with the popular NextJS, streamlined backend deployment using Docker, 
-and transitioned away from a REST API and instead 
-learned GraphQL. Although trying so many new technologies brought a tremendous amount of issues, I found a tremendous amount of value in throwing myself into a 
-sea of unfamiliarity by carefully solving each issue through consultations with friends, documentation, and stack overflow.
+and transitioned away from a REST API and instead learned GraphQL. Although trying so many new technologies brought a tremendous amount of issues, I found much intrinsic satisfaction by carefully solving each issue through consultations with friends as well as reading documentation and stack overflow.
 
 ## Technologies Used
 * Typescript
