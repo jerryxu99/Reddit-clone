@@ -4,6 +4,8 @@ vote on posts, and features smaller functionalities such as advanced caching, se
 
 The app is deployed at https://jxu-reddit-clone.herokuapp.com/
 
+Please note that Heroku automatically sleeps deployment instances for resource management. The page may take up to 20 seconds to load if cold-starting.
+
 ## Motivation
 The purpose of this project was to learn. A major motivation behind this project was familiarizing myself with Typescript.
 On the topic of learning new technologies, I figured I might as well try a completely new tech stack, steering away from MERN. I had my first experience 
